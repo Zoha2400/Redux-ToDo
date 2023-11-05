@@ -1,6 +1,6 @@
 .ToDo-wrap {
   width: 300px;
-  padding: 5px;
+  padding: 5px 5px 5px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,6 +10,12 @@
   .message {
     color: white;
     font-size: 13px;
+    display: flex;
+    grid-gap: 5px;
+
+    .num {
+      color: gray;
+    }
   }
   .buttons {
     display: flex;
@@ -18,10 +24,10 @@
     grid-gap: 3px;
     font-size: 10px;
     .done {
-      background-color: rgb(44, 139, 44);
+      background-color: rgb(46, 186, 79);
     }
     .remove {
-      background-color: rgb(247, 37, 37);
+      background-color: rgb(255, 60, 60);
     }
     .btn {
       height: 25px;
