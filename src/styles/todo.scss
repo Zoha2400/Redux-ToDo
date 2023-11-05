@@ -1,0 +1,37 @@
+.ToDo-wrap {
+  width: 300px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(68, 68, 68);
+
+  .message {
+    color: white;
+    font-size: 13px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 3px;
+    font-size: 10px;
+    .done {
+      background-color: rgb(44, 139, 44);
+    }
+    .remove {
+      background-color: rgb(247, 37, 37);
+    }
+    .btn {
+      height: 25px;
+      width: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4px;
+      color: white;
+      border-radius: 100%;
+    }
+  }
+}

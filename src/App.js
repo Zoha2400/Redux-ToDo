@@ -1,3 +1,4 @@
+import TodoFiled from "./components/field";
 import Input from "./components/input";
 import ToDo from "./components/todo";
 import "./style.scss";
@@ -13,6 +14,7 @@ export default function App() {
 
       <div className="content">
         <Input />
+        <TodoFiled />
       </div>
     </div>
   );
