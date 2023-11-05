@@ -1,10 +1,13 @@
-import "./styles.css";
+import "./style.scss";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <div className="header">
+        <a href="https://github.com/Zoha2400">
+          React ToDo v2.0 - Redux Version by Zoha2400
+        </a>
+      </div>
     </div>
   );
 }
